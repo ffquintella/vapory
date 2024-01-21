@@ -1,6 +1,6 @@
 import os
 
-POVRAY_BINARY = ("pvengine64.exe" if os.name=='nt' else "povray")
+POVRAY_BINARY = ("C:\\Program Files\\POV-Ray\\v3.7\\bin\\pvengine64.exe" if os.name=='nt' else "povray")
 
 GLOBAL_SCENE_SETTINGS = {
     "charset"        : "ascii",
